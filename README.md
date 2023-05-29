@@ -1,6 +1,6 @@
 # MERN Authentication Starter
 
-This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow that uses the [Vite](https://vite.dev) Build tool. This authentication workflow is based off of my [MERN Stack From Scratch | eCommerce](https://www.traversymedia.com/mern-stack-from-scratch) course.
+This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow . This authentication workflow is based off of my [MERN Stack From Scratch | eCommerce](https://www.traversymedia.com/mern-stack-from-scratch) course.
 
 <img src="./frontend/public/screen.png" />
 
@@ -16,15 +16,15 @@ It includes the following:
 - React Bootstrap UI library
 - React Toastify notifications
 
-## Usage
+<!-- ## Usage
 
 - Create a MongoDB database and obtain your `MongoDB URI` - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
-- Create a PayPal account and obtain your `Client ID` - [PayPal Developer](https://developer.paypal.com/)
+- Create a PayPal account and obtain your `Client ID` - [PayPal Developer](https://developer.paypal.com/) -->
 
 ### Env Variables
 
-Rename the `.env.example` file to `.env` and add the following
-
+<!-- Rename the `.env.example` file to `.env` and add the following
+ -->
 ```
 NODE_ENV = development
 PORT = 5000
