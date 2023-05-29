@@ -12,8 +12,10 @@ const port = process.env.PORT || 5000;
 connectDB();
 
 const app = express();
+const cors = require("cors");
 
 app.use(express.json());
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cookieParser());
@@ -29,6 +31,7 @@ if (process.env.NODE_ENV === 'production') {
   );
 } else {
   app.get('/', (req, res) => {
+    res.setHeader("Access-Control-Allow-Credentials","true");
     res.send('API is running....');
   });
 }
